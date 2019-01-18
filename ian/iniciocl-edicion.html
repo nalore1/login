@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<head>
+    <title>Inicio Sesión Cliente</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+"
+        crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<!--INICIO DE SESION-->
+
+<body style="background: rgb(184, 215, 245);">
+    <br><br>
+    <div class="container" style="background: white;border-radius: 10px;">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1">
+                <td><br><br>
+                    <!--ICONO-->
+                    <div align="center">
+                        <img class="img-responsive" src="imagenes/images.png" height="80" width="100">
+                        <h1>Iniciar sesión</h1>
+                    </div>
+                    <br>
+                    <!--ID-->
+                    <div class="form-group">
+                        <label for="InputRUT">RUT</label>
+                        <input type="text" class="form-control" id="InputRUT" placeholder="Ej: 12.345.678-9">
+                    </div>
+                    <!--PASSWORD-->
+                    <div class="form-group">
+                        <label for="InputPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                        <input type="checkbox" onchange="document.getElementById('inputPassword').type =this.checked ? 'text' : 'password'">Mostrar
+                    </div>
+                    <!--BOTONES-->
+                    <div align="right">
+                        <button type="submit" class="btn btn-default">Entrar</button>
+                    </div>
+                    <div>
+                        <br>
+                        <div class="col-md-2">
+                            <h5 align="left"><a>Volver</a></h5>
+                        </div>
+                        <div>
+                            <h5 align="right"><a>Registrarse</a></h5>
+                        </div>
+                        <br>
+                    </div>
+            </div>
+
+
+            <!--IIMAGEN DE LADO IZQUIERDO-->
+            <div align="Center" class="col-md-6 col-md-offset-1">
+                <h1></h1>
+                <br><br><img class="img-responsive" src="imagenes/im.png">
+                <br><img class="img-responsive" src="imagenes/as.jpg" height="300" width="600">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
